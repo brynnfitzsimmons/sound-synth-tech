@@ -17,7 +17,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 511.0, 382.0, 32.0, 22.0 ],
+                    "patching_rect": [ 371.0, 394.0, 32.0, 22.0 ],
                     "text": "print"
                 }
             },
@@ -28,7 +28,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 493.0, 324.0, 74.0, 22.0 ],
+                    "patching_rect": [ 353.0, 336.0, 74.0, 22.0 ],
                     "text": "Hello World!"
                 }
             },
@@ -63,7 +63,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 876.0, 79.0, 117.0, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "sine wave oscilator"
                 }
             },
@@ -74,8 +73,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 781.0, 394.0, 117.0, 47.0 ],
-                    "presentation_linecount": 3,
+                    "patching_rect": [ 781.0, 394.0, 118.0, 47.0 ],
                     "text": "<ezdac> addresses the physical outputs 1+2"
                 }
             },
@@ -85,7 +83,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 781.0, 232.0, 76.0, 20.0 ],
+                    "patching_rect": [ 781.0, 232.0, 77.0, 20.0 ],
                     "text": "<live.gain~> "
                 }
             },
@@ -95,7 +93,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 719.5, 394.0, 45.0, 45.0 ]
+                    "patching_rect": [ 568.0, 444.0, 45.0, 45.0 ]
                 }
             },
             {
@@ -162,7 +160,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 371.0, 165.0, 117.0, 20.0 ],
-                    "presentation_linecount": 3,
                     "text": "accumulation value"
                 }
             },
@@ -183,7 +180,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 437.0, 128.0, 47.0, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "iterate"
                 }
             },
@@ -554,14 +550,6 @@
         ],
         "parameters": {
             "obj-44": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
